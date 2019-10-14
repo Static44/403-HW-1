@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    table,
+    th,
+    tr,
+    td {
+        border: 3px ridge skyblue;
+        text-align: center;
+    }
+
+    img {
+        width: 60px;
+        height: 40px;
+    }
+
+</style>
+<h2>Index</h2>
+
+@Html.Raw((string)ViewBag.Output)
+
